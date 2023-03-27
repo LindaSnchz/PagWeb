@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-weight: 900;
     font-family: 'Nunito Sans', sans-serif;
 }
 li{
-    
     display: inline-block;
     padding: 10px 30px;
     background-color: lightsalmon;
@@ -34,8 +36,22 @@ li:hover{
     width: 100%;
 }
 .parrafo{
+    color:salmon;
+    text-align: justify;
+}
+.parrafo2{
     text-align: justify;
 }
 img{
     width: 30px;
+}
+h1{
+    margin: unset;
+    border: none;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+}
+div>p{  /*si tengo varias cosas dentro del div, puedo poner asi div>etiqueta para que se aplique a los hijos directos del div, y sino pongo div etiqueta para que se aplique a todo lo que esta dentro del div*/
+    color: lawngreen;
 }
